@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registro de formulario diario AS</title>
+</head>
+<body>
+	<form>
+  		<div class="mb-3">
+	    	<label for="InputEmail1" class="form-label">Correo Electronico</label>
+	    	<input type="email" class="form-control" id="InputEmail1" aria-describedby="email">
+	   	 	<div id="email" class="form-text">Indica el email con el que te quieres registrar</div>
+ 		</div>
+  		<div class="mb-3">
+		    <label for="InputPassword1" class="form-label">Contraseña:</label>
+		    <input type="password" class="form-control" id="InputPassword1">
+		</div>
+  		<div class="mb-3">
+		    <label for="InputPassword2" class="form-label">Repite tu contraseña:</label>
+		    <input type="password" class="form-control" id="InputPassword2">
+		</div>
+		<select class="form-select" aria-label="Default select example">
+		  <option selected>Selecciona tu pais</option>
+		  <option value="1">España</option>
+		  <option value="2">Honduras</option>
+		  <option value="3">Mexico</option>
+		</select>		
+
+		<div class="form-check">
+		  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+		  <label class="form-check-label" for="flexRadioDefault1">
+		    Mujer
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+		  <label class="form-check-label" for="flexRadioDefault2">
+		    Hombre
+		  </label>
+		</div>
+		<div>
+			<h2>fecha de nacimiento</h2>
+			<select class="form-select" aria-label="Default select example">
+			  
+			  <option selected>Dia</option>
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			</select>
+			<select class="form-select" aria-label="Default select example">
+			  
+			  <option selected>Mes</option>
+			  <option value="1">Enero</option>
+			  <option value="2">Febrero</option>
+			  <option value="3">Marzo</option>
+			</select>
+			<select class="form-select" aria-label="Default select example">
+			  
+			  <option selected>Año</option>
+			  <option value="1">1980</option>
+			  <option value="2">1981</option>
+			  <option value="3">1982</option>
+			</select>
+		</div>
+
+
+		<div class="mb-3 form-check">
+		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		    <label class="form-check-label" for="exampleCheck1">He leído y entiendo las Condiciones de uso y Protección de datos ayuda y mis Preferencias de privacidad saber más</label>
+	    </div>
+	  <button type="submit" class="btn btn-primary">Continuar</button>
+</form>
+</body>
+</html>
